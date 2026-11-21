@@ -1,0 +1,55 @@
+Python Basics
+This repository contains a collection of source code and documentation from learning fundamental to intermediate Python programming concepts, including Object-Oriented Programming (OOP), Modularization, File Handling, and Exception Handling.
+📚 Summary of Topics Learned
+Based on the python-dasar/ directory structure, here are the topics covered in this project:
+Basic Syntax & Structure (hello.py, struktur_dasar.py)Writing the first Python program, understanding indentation, comments, and basic program execution flow.Variables, Constants & Data Types (variable.py, constants.py, tipe_data.py)Declaring variables, defining constants, and working with primitive data types (String, Integer, Float, Boolean).Operators (operators.py)Performing operations using arithmetic, comparison, logical, and assignment operators.Control Flow (control_flow.py)Implementing conditional branching (if, elif, else) and loops (for, while).Data Structures (list_tuple_set.py, dictionary.py)Managing collections of data using List, Tuple, Set, and Dictionary (key-value pairs).Functions (function.py)Creating reusable blocks of code with parameters, arguments, and return values.Modules & Packages (matematika.py, main.py, package.py, my_package/)Organizing code into custom modules (matematika.py) and structured packages (my_package/geometri.py, my_package/operasi.py).File Handling & Exception Handling (file_handling.py, exception.py, contoh.txt, data.txt)Reading from and writing to external text files (contoh.txt, data.txt) safely using try-except error handling blocks.Object-Oriented Programming / OOP (class_and_object.py, encapsulation.py, inheritance.py, polymorphism.py, abstraction.py)Implementing the four main pillars of OOP: Encapsulation, Inheritance, Polymorphism, and Abstraction, along with creating classes and objects.
+📂 Directory Structure
+belajar-python/
+├── python-dasar/              # Main source code directory
+│   ├── my_package/            # Custom Python package
+│   │   ├── __init__.py
+│   │   ├── geometri.py        # Geometry calculation module
+│   │   └── operasi.py         # Basic math operations module
+│   ├── abstraction.py         # OOP: Abstraction exercises
+│   ├── class_and_object.py    # OOP: Class & Object exercises
+│   ├── constants.py           # Constants implementation
+│   ├── contoh.txt             # Sample text file for I/O
+│   ├── control_flow.py        # Conditionals & Loops
+│   ├── data.txt               # Data text file for I/O
+│   ├── dictionary.py          # Dictionary data structure
+│   ├── encapsulation.py       # OOP: Encapsulation exercises
+│   ├── exception.py           # Try-Except error handling
+│   ├── file_handling.py       # File read/write operations
+│   ├── function.py            # Function definitions & calls
+│   ├── hello.py               # Hello World script
+│   ├── inheritance.py         # OOP: Inheritance exercises
+│   ├── list_tuple_set.py      # List, Tuple, and Set exercises
+│   ├── main.py                # Main entry point importing custom modules
+│   ├── matematika.py          # Custom math module
+│   ├── operators.py           # Python operators
+│   ├── package.py             # Importing from my_package
+│   ├── polymorphism.py        # OOP: Polymorphism exercises
+│   ├── struktur_dasar.py      # Basic Python syntax & structure
+│   ├── tipe_data.py           # Data types exploration
+│   └── variable.py            # Variable declarations
+├── screenshot/                # Execution output screenshots (tutorial 1 - 19)
+├── venv/                      # Python virtual environment
+├── .gitignore                 # Files/folders ignored by Git
+├── README.md                  # Project documentation
+└── requirements.txt           # Project dependencies list
+
+How to Run the Programs
+Follow these steps to run the programs on your local machine:
+Clone this repository:git clone https://github.com/Dizannputra/belajar-python.git
+cd belajar-python
+Activate the Virtual Environment (venv):Windows (Command Prompt / PowerShell):
+venv\Scripts\activate
+
+Linux / macOS:
+source venv/bin/activate
+
+Install Dependencies (optional if external libraries are added later):pip install -r requirements.txt
+Run a Python Program:
+Navigate to the python-dasar folder (recommended so relative file paths like data.txt and contoh.txt work properly) and execute any script:cd python-dasar
+python main.py
+(Replace main.py with any other file name you wish to run, such as inheritance.py or file_handling.py).
